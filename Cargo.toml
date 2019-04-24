@@ -1,0 +1,10 @@
+[package]
+name = "i2pcat"
+version = "0.1.0"
+authors = ["Andrew Dirksen <andrew@dirksen.com>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+i2p = { git = "https://github.com/ignopeverell/i2p-rs.git" }
+structopt = "0.2.15"
